@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.slide{
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide span{
+    position: relative;
+    z-index: 1;
+}
+
+.slide img{
+    position: relative;
+    left: -100px;
+    transition: left 0.2s ease;
+}
+
+.slide:hover img{
+    left: 0px;
+}

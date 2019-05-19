@@ -1,0 +1,27 @@
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+    text-align: center;
+    left: 0;
+    background-color: #f1f1f1;
+}
+
+#search{
+    line-height: 19px;
+    border: none;
+    margin: 30px 10px 0;
+}
+
+.nav a{
+    text-decoration-line: none;
+    display: block;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.nav a:hover{
+    background-color: aliceblue;
+}

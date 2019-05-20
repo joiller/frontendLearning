@@ -7,24 +7,50 @@ img{
     height: 100px;
 }
 
+.theme{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theme h3,.theme h4,.theme hr{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+hr{
+}
+
 .slide{
-    width: 500px;
+    width: 400px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
 }
 
-.slide span{
-    position: relative;
-    z-index: 1;
-}
-
 .slide img{
     position: relative;
-    left: -100px;
-    transition: left 0.2s ease;
+    left: 0;
+    transition: all .5s ease;
 }
 
 .slide:hover img{
-    left: 0px;
+    left: 100px;
+}
+
+.container{
+    display: flex;
+}
+
+.left,.right{
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.scenery{
+    width: auto;
+    height: auto;
 }

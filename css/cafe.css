@@ -47,7 +47,7 @@ header{
 
 .main h3{
     text-align: center;
-    padding: 5vw 0;
+    padding: 5vw 0 7vw 0;
 }
 
 .main a{
@@ -56,7 +56,8 @@ header{
     color: aliceblue;
     text-decoration-line: none;
     margin: 0.8vw 0;
-    padding: 0.8vw 0;
+    padding: 1vw 0;
+    width: 100%;
     transition: all 0.5s ease;
 }
 
@@ -72,6 +73,7 @@ header{
 .icon img{
     width: 4vw;
     height: 4vw;
+    padding: 0 .7vw;
     cursor: pointer;
 }
 

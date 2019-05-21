@@ -3,18 +3,11 @@ window.onload = function () {
     let right = document.getElementsByClassName('right')
     let header = document.getElementsByTagName("header")
     let main = document.getElementsByClassName('main')
-    if (document.documentElement.clientWidth>825){
-        header[0].style.height = document.documentElement.clientWidth*0.8+'px'
-        main[0].style.top = document.documentElement.clientWidth*0.1+'px'
-    }
+    // if (document.documentElement.clientWidth>825){
+    header[0].style.height = document.documentElement.clientWidth*0.8+'px'
+    // }
     window.onresize = function(){
         header[0].style.height = document.documentElement.clientWidth*0.8+'px'
-        if (document.documentElement.clientWidth>825){
-
-        }else {
-
-            main[0].style.top = 0
-        }
 
     }
     right[0].onclick = function () {

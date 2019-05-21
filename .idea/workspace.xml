@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f80ca6-9df1-4b53-ae20-24657f574052" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/cafe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/cafe.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cafe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/cafe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cafe.js" afterDir="false" />
@@ -16,42 +17,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/cafe.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/cafe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.39831403">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cafe.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/cafe.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/cafe.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="513">
+                  <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML4 File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,8 +98,10 @@
         <option value="$PROJECT_DIR$/website1.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/test.js" />
-        <option value="$PROJECT_DIR$/js/cafe.js" />
+        <option value="$PROJECT_DIR$/gridLayout.html" />
+        <option value="$PROJECT_DIR$/css/gridLayout.css" />
         <option value="$PROJECT_DIR$/cafe.html" />
+        <option value="$PROJECT_DIR$/js/cafe.js" />
         <option value="$PROJECT_DIR$/css/cafe.css" />
       </list>
     </option>
@@ -97,10 +109,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="20" />
-    <option name="width" value="987" />
+    <option name="width" value="893" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -116,7 +130,12 @@
             <path>
               <item name="frontendLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontendLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="cafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontendLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontendLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -156,6 +175,9 @@
     <configuration name="cafe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontendLearning/cafe.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="gridLayout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontendLearning/gridLayout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="modalImg.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontendLearning/modalImg.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -165,16 +187,13 @@
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontendLearning/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="modalImg.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="modalImg.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.cafe.html" />
+        <item itemvalue="JavaScript Debug.gridLayout.html" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.responsiveBotBar.html" />
         <item itemvalue="JavaScript Debug.modalImg.html" />
-        <item itemvalue="Node.js.modalImg.js" />
       </list>
     </recent_temporary>
   </component>
@@ -195,19 +214,21 @@
       <workItem from="1558260601504" duration="8875000" />
       <workItem from="1558276232186" duration="3585000" />
       <workItem from="1558351961943" duration="8913000" />
+      <workItem from="1558414666202" duration="15449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68144000" />
+    <option name="totallyTimeSpent" value="84441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="20" width="987" height="970" extended-state="0" />
+    <frame x="-1" y="20" width="893" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.1205074" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.23859648" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3297491" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3297491" />
@@ -215,7 +236,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3293556" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39826304" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3297491" />
@@ -386,18 +407,6 @@
     <entry file="file://$PROJECT_DIR$/cafe/weibo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/youxiang.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/3ed8b84bab09896decbe8b35b3cd5d2e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/4c24c0f87dd31f157a391cb27b4acbc5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/2640a33cd3e2b8181a9ce639a312c467.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cafe/QQ截图20190512151747.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -418,24 +427,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/gridLayout.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gridLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/2640a33cd3e2b8181a9ce639a312c467.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/4c24c0f87dd31f157a391cb27b4acbc5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/3ed8b84bab09896decbe8b35b3cd5d2e.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/youxiang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/cafe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="435">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cafe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="513">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
         </state>
       </provider>
     </entry>

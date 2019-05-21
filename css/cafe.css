@@ -5,31 +5,58 @@
 header{
     background-image: url("../cafe/2640a33cd3e2b8181a9ce639a312c467.jpg");
     background-size: 100% 100%;
-
+    width: 100%;
+    height: 80%;
+    position: relative;
 }
+
+/*@media screen and (min-width: 710px){*/
+/*    header{*/
+/*        height: ;*/
+/*    }*/
+/*}*/
+
+/*#headimg{*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
 .main{
     color: aliceblue;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 50px;
-    padding: 20px;
+    padding: 1vw 0;
     background-color: rgba(0,0,0,0.4);
-    width: 200px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    font-size: 2.3vw;
+    position: relative;
+}
+
+.main hr{
+    /*align-self: center;*/
+    width: 80%;
 }
 
 .main h3{
     text-align: center;
-    padding: 50px 0;
+    padding: 5vw 0;
 }
 
 .main a{
+    justify-self: center;
     text-align: center;
     color: aliceblue;
     text-decoration-line: none;
-    margin: 10px 0;
-    padding: 10px 0;
+    margin: 0.8vw 0;
+    padding: 0.8vw 0;
     transition: all 0.5s ease;
 }
 
@@ -43,12 +70,14 @@ header{
 }
 
 .icon img{
-    width: 30px;
-    height: 30px;
+    width: 4vw;
+    height: 4vw;
     cursor: pointer;
 }
 
 .sign{
+    width: 30%;
+    height: 50%;
     position: absolute;
     top: 15%;
     right: 15%;
@@ -59,6 +88,9 @@ header{
 }
 
 .sign fieldset{
+    font-size: 4vw;
+    height: 100%;
+    width: 100%;
     border-style: solid;
     display: flex;
     flex-direction: column;
@@ -66,13 +98,27 @@ header{
 }
 
 .sign fieldset div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(0,0,0,0.4);
-
+    position: absolute;
+    width: 150%;
+    height: 80%;
+    top: 15%;
+    left: -18%;
+    text-align: center;
 }
 
 
-.sign h2,.sign h3{
+.sign h3{
+    font-size: 4vw;
     padding: 10px 0;
+}
+
+.sign h2{
+    font-size: 6vw;
+    padding: 15px 0;
 }
 
 img{

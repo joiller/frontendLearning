@@ -29,7 +29,7 @@ window.onload = function () {
                 }
                 slides[i].style.left=slidePos[i]+'px'
             }else {
-                if (slidePos[i]<-400) {
+                if (slidePos[i]<=-400) {
                     slidePos[i]=0
                 }else {
                     slidePos[i]-=100

@@ -20,6 +20,7 @@ header{
 }
 
 .main h3{
+    text-align: center;
     padding: 50px 0;
 }
 
@@ -27,7 +28,14 @@ header{
     text-align: center;
     color: aliceblue;
     text-decoration-line: none;
-    padding: 20px 0;
+    margin: 10px 0;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+}
+
+.main a:hover{
+    background-color: rgba(255,255,255,0.6);
+    color: black;
 }
 
 .icon{
@@ -50,7 +58,20 @@ header{
     text-align: center;
 }
 
-.sign h2,.sign h3,.sign h4{
+.sign fieldset{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign fieldset div{
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+
+.sign h2,.sign h3{
     padding: 10px 0;
 }
 
@@ -100,14 +121,12 @@ img{
 }
 
 .slide img{
+    left: 0;
     /*padding: 50px 0;*/
     position: relative;
     transition: all .5s ease;
 }
 
-.slide:hover img{
-    left: 100px;
-}
 
 .container{
     display: flex;
